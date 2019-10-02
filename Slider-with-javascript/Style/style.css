@@ -1,0 +1,95 @@
+
+body{
+  margin: 0;
+  border: 0;
+
+    overflow: hidden;
+}
+div{
+  display: inline-block;
+  overflow: hidden;
+  overflow-x: hidden;
+  margin: 0;
+  border: 0;
+  height: 500px;
+}
+#m1 {
+
+background-color: red;
+
+height: 500px;
+position: absolute;
+left: 0px;
+/*background-image: url("../image/1.jpg");*/
+display: inline-block;
+overflow: hidden;
+}
+/* #m2{
+position: absolute;
+top :0px;
+left: -1400px;
+display: inline-block;
+overflow: hidden;
+}
+#m3{
+position: absolute;
+top :0px;
+left: -1400px;
+display: inline-block;
+overflow: hidden;
+}
+#ma{
+position: absolute;
+top :0px;
+right: -1400px;
+display: inline-block;
+overflow: hidden;
+}
+#mb{
+position: absolute;
+top :0px;
+right:  -1400px;
+display: inline-block;
+overflow: hidden;
+}
+*/
+
+#one{
+
+  z-index: 1;
+  cursor: pointer;
+  position: absolute;
+
+  width: auto;
+  padding: 16px;
+  top: 50%;
+  margin-top: -22px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+text-decoration: none;
+  /* transition: 0.6s ease; */
+
+  border-radius: 0 3px 3px 0;
+
+}
+#two{
+  /* transition: 0.6s ease; */
+  z-index: 1;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  width: auto;
+  padding: 16px;
+  top: 50%;
+  right: 0;
+  margin-top: -22px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+text-decoration: none;
+  border-radius: 0 3px 3px 0;
+}
+#chan{
+  display: none;
+}
